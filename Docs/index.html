@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>TAG Argentina - Filtros</title>
+		<meta name="description" content="Wobbly slideshow effect using Snap.svg" />
+		<meta name="keywords" content="slideshow, wobbly, jelly, effect, svg, snap.svg, web design" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+		<script src="js/snap.svg-min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<div id="slideshow" class="slideshow">				
+				<ul>
+					<li>
+						<div class="slide">		
+							<img src="./img/logo.png" alt="" width="200px" height="100px">
+							<h1 style="font-weight: bold">Conoce nuestros filtros</h1>
+						</div>
+					</li>
+					<li>
+						<div class="slide">														
+							<div>
+								<h1>El filtro ideal para vos depende del uso que le des a tu telefono</h1>
+								<br><br>
+								<h2>Te contamos a que nos estamos refiriendo....</h2>
+							</div>							
+						</div>
+					</li>
+					<li>
+						<div class="slide">							
+							<div>
+								<h1>Si usas tu telefono solamente con aplicaciones como</h1>
+							</div>
+							<br>
+							<div>
+								<img src="./img/whatsapp.jpg" alt="" width="50px">
+								<img src="./img/mcdonalds.jpg" alt="" width="50px">
+								<img src="./img/mercadolibre.jpg" alt="" width="50px">								
+							</div>
+							<br><br>
+							<div>
+								<h1>Pero el navegador no lo usas</h1>
+								<img src="./img/chrome.jpg" alt="" width="50px">
+								<h2>Entonces...</h2>
+							</div>							
+						</div>
+					</li>
+					<li>
+						<div class="slide">														
+							<div>
+								<h1>Te podemos ofrecer un filtro GRATUITO hecho por nosotros</h1>
+								<h1>Su nombre es HASHOMER</h1>
+							</div>
+							<div>
+								<img src="./img/hashomer.png" alt="" width="50px">
+							</div>
+							<div>
+								<h1>Caracteristicas:</h1>
+								<h3>- La navegacion esta desactivada</h3>
+								<h3>- Estados de Whatsapp bloqueados</h3>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="slide">														
+							<div>
+								<h1>Si ademas de usar apps tambien usas navegacion en sitios web</h1>
+								<h1>Entonces la opcion para vos es Netspark</h1>
+							</div>
+							<div>
+								<img src="./img/hashomer.png" alt="" width="50px">
+							</div>
+							<div>
+								<h1>Caracteristicas:</h1>
+								<h3>- La navegacion esta desactivada</h3>
+								<h3>- Estados de Whatsapp bloqueados</h3>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="slide">
+							
+							<blockquote>
+								<h4>Caracteristicas</h4>
+								<h5>Catalogo de paginas permitido</h5>
+								<h5>Control de imagen</h5>
+								<h5>Busqueda de Google</h5>
+								<h5>Acceso a Youtube</h5>
+							</blockquote>
+							
+						</div>
+					</li>
+					<li>
+						<div class="slide">							
+							<blockquote>
+								<p>I refuse to join any club that would have me as a member.</p>
+							</blockquote>							
+						</div>
+					</li>
+					<li>
+						<div class="slide">
+							<div class="codrops-links">
+								<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/TooltipStylesInspiration/"><span>Previous Demo</span></a>
+								<a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=20714"><span>Back to the Codrops Article</span></a>
+							</div>
+							<div class="related">
+								<p>If you enjoyed this demo you might also like:</p>
+								<a href="http://tympanus.net/Tutorials/PagePreloadingEffect/">
+									<img src="img/related/PagePreloadingEffect.png" />
+									<h3>Page Preloading Effect</h3>
+								</a>
+								<a href="http://tympanus.net/Development/ButtonComponentMorph/">
+									<img src="img/related/MorphingButtons.png" />
+									<h3>Morphing Buttons</h3>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/sliderFx.js"></script>
+		<script>
+			(function() {
+				new SliderFx( document.getElementById('slideshow'), {
+					easing : 'cubic-bezier(.8,0,.2,1)'
+				} );
+			})();
+		</script>
+	</body>
+</html>
